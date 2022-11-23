@@ -1,0 +1,16 @@
+body {
+    display: block;
+    margin: 32px 64px;
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+#title{
+    background-color: aqua;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0px;
+}
