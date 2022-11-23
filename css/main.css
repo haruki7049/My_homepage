@@ -1,6 +1,9 @@
 body {
     display: block;
-    margin: 32px 64px;
+    margin: 0;
+    border: solid;
+    border-width: 32px 64px;
+    border-color: teal;
 }
 
 header {
@@ -8,9 +11,17 @@ header {
     text-align: center;
 }
 
-#title{
+#title {
     background-color: aqua;
     font-size: xx-large;
     font-weight: bold;
     margin: 0px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
 }
