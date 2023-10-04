@@ -1,110 +1,51 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-859BHQ828M"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-859BHQ828M');
-        </script>
-
         <title>しまうちはるきのホームページ</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="icon" href="image/icon/favicon.ico">
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./index.css" type="text/css">
     </head>
     <body>
-        <header>
-            <p id="title">しまうちはるきのホームページ</p>
-            <b>このページはまだ作成している途中です！！</b>
-        </header>
-
-        <main>
-            <div class="self_introduction">
-                <h1>自己紹介</h1>
-                <p>こんにちは。</p>
-                <p>
-                    私の名前は
-                    <ruby>
-                        嶋内<rp>（</rp><rt>しまうち</rt><rp>）</rp>
-                        悠記<rp>（</rp><rt>はるき</rt><rp>）</rp>
-                    </ruby>
-                    と言います。
-                </p>
-            </div>
-            <div class="my_favorite">
-                <section>
-                    <h1>ワイの好きな分野</h1>
+        <section>
+            <h1>自己紹介</h1>
+            <p>初めまして。私の名前はしまうちはるきと申します。Linuxを趣味で触っています。</p>
+        </section>
+        <section>
+            <h1>私の作品群</h1>
+            <ul>
+                <li><a href="https://github.com/haruki7049/my_neovim_config">my_neovim_config</a></li>
+                <li><a href="https://github.com/haruki7049/leiningen-debian">leiningen-debian</a></li>
+                <li><a href="https://github.com/haruki7049/clojure-debian">clojure-debian</a></li>
+                <li><a href="https://github.com/haruki7049/dell-chan_configuration.nix">dell-chan_configuration.nix</a></li>
+                <li><a href="https://github.com/haruki7049/test-haskell-nix">test-haskell-nix</a></li>
+                <li><a href="https://github.com/haruki7049/test-blog-os">test-blog-os</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>My_SNS</h2>
+            <div>
+                <h3>ActivityPub対応SNS</h3>
+                <p>Search in your instance as "@haruki7049@submarin.online".</p>
+                <address>
                     <ul>
-                        <li>パソコン</li>
-                        <li>プログラミング</li>
-                        <li>ゲーム</li>
+                        <li><a href="https://submarin.online/@haruki7049">@haruki7049@submarin.online</a></li>
+                        <li><a href="https://www.threads.net/@haruki7049">@haruki7049@threads.net</a></li>
+                        <strong>threads.net is not in ActivityPub yet.</strong>
+                        <li><a href="https://misskey.systems/@haruki7049">@haruki7049@misskey.systems</a></li>
+                        <li><a href="https://mstdn.jp/@haruki7049">@haruki7049@mstdn.jp</a></li>
                     </ul>
-                </section>
-                <h2>それぞれについて詳しく</h2>
-                <section>
-                    <h3>パソコン</h3>
-                    <p>
-                        パソコン:パーソナルコンピューター、略してパソコン。2022年現在、かなりのパソコンが世に出回っている。だが、あまり普通の人はパソコンに入れ込んだりはしない。らしい…
-                        私が好きな分野としては、パソコンを動かすために必要なOS、もう少し詳しく言うと<em>Linux</em>というOSがかなり好きである。<s>Windowsはクソ</s>
-                    </p>
-                </section>
-                <section>
-                    <h3>プログラミング</h3>
-                    <p>
-                        プログラミング:パソコン内で頑張って動いているプログラムを作る事。私のプログラミングライフの一番最初はプログラミングスクールに通い、そこでScratchから始めた。
-                        今はそのプログラミングスクールには通ってはいないが、そこで通っていなかったら今の自分はないだろう。今となってはある程度のプログラミング言語は読む事が出来るようになった。
-                        最近好きなプログラミング言語はLua。かなり簡単な言語であるために、感覚的に書くことが出来た。
-                    </p>
-                    <p>    
-                        よく書くコードはこんなコード。
-                    </p>
-                    <pre><code>
-unko = {
-    name = "unkoman",
-    age = 24,
-    greeting = function(self)
-        greeting_sentence = string.format("Hi!! I'm %s.", self.name)
-        print(greeting_sentence)
-    end
-}
-                    </code></pre>
-                    <p>なんのコードなんやろなぁ…（すっとぼけ）</p>
-                </section>
-                <section>
-                    <h3>ゲーム</h3>
-                    <p>
-                        ゲーム:ワイの小さい頃からの趣味。パソコン、もといプログラミングを始めようと思った理由はゲームを自分で作ってみたいと思ったから。
-                        その当時、「このゲーム、もっとこうしたらいいのになぁ」なんて考えたのがきっかけ。<s>もう少し言うとこのゲームクソだから自分で作ろう！！　って考えた事から。先人を崇めよ、当時の俺よ…</s>
-                        人生で最初にやったと記憶しているゲームがマリオカートWii。最近はTitanfall2が好き。<s>EAはクソ。はっきりわかんだね（迫真）</s>
-                    </p>
-                </section>
+                </address>
             </div>
-        </main>
-
-        <footer>
-            
-            <div class="other_page_information">
-                <p>私が作った他のページ</p>
-                <nav>
+            <div>
+                <h3>ActivityPub非対応SNS</h3>
+                <address>
                     <ul>
-                        <li><a href="./other_pages/blog/blog_home.html">ワイのブログ</a></li>
-                        <li><a href="other_pages/introducing_my-programs/introducing_my-programs_home.html">ワイのプログラム：アプリたち</a></li>
+                        <li><a href="https://twitter.com/Love__Yoshi">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/haruki7049">Facebook</a></li>
+                        <li><a href="https://github.com/haruki7049">GitHub</a></li>
                     </ul>
-                </nav>
+                </address>
             </div>
-
-            <p>連絡先</p>
-            <address>
-                <ul>
-                    <li>twitter: <a href="https://twitter.com/Love__Yoshi">@Love__Yoshi</a></li>
-                    <li>Github: <a href="https://github.com/haruki7049">haruki7049</a></li>
-                    <li>FaceBook: <a href="https://facebook.com/haruki7049">しまうちはるき</a></li>
-                </ul>
-            </address>
-        </footer>
+        </section>
     </body>
 </html>
