@@ -8,6 +8,8 @@ export default function Home() {
         <div class="px-4 py-8 mx-auto flex flex-col items-center justify-center bg-[#A2D7DD]">
           <h1 class="text-2xl">こんにちは！ 私はしまうちはるきと申します。宜しくお願いします！</h1>
           <img
+            class="rounded-full"
+            src="Love__Yoshi.jpg"
           />
         </div>
         <div class="px-4 py-8 mx-auto flex flex-col items-center justify-center bg-[#FADBDA]">
